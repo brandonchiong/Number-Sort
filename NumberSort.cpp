@@ -49,3 +49,26 @@ void selectionSort(vector<int>& v) {
         v[minIndex] = temp;
     }
 }
+
+void printVector(vector<int>& v) {
+
+	cout << endl;
+	cout << "Sorted Vector:" << endl;
+	for (int i = 0; i < v.size(); i++) {
+        cout << v[i] << " ";
+    }
+    cout << endl;
+}
+
+int main() {
+	
+	vector<int> myVector;
+	
+	readData(myVector);
+	
+	selectionSort(myVector);
+	
+	printVector(myVector);
+	
+	return 0;
+}
