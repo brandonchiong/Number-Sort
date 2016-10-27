@@ -54,6 +54,7 @@ void selectionSort(vector<int>& v) {
     }
 }
 
+// This method prints out the sorted vector
 void printVector(vector<int>& v) {
 
 	cout << endl;
