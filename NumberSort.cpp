@@ -6,6 +6,8 @@ using namespace std;
 /* This program takes in numbers from the user, puts them into a vector, prints out the vector,
 sorts the numbers from lowest to highest, and then prints out the sorted vector. */
 
+// This method prompts the user for numbers, which are put into a stringstream. 
+// The unsorted vector is then printed out.
 void readData(vector<int>& v) {
 	
 	string userIn;
