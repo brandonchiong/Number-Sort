@@ -64,6 +64,8 @@ void printVector(vector<int>& v) {
     cout << endl;
 }
 
+// The main method creates a vector of ints and calls the readData, selectionSort, 
+// and printVector methods to do all the reading, sorting, and printing.
 int main() {
 	
 	vector<int> myVector;
