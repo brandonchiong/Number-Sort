@@ -31,6 +31,7 @@ void readData(vector<int>& v) {
     cout << endl;
 }
 
+// This method sorts the numbers from lowest to highest in the vector.
 void selectionSort(vector<int>& v) {
 	
 	int i, j;
