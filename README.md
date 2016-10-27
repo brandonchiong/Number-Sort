@@ -1,3 +1,4 @@
-# Number-Sort
+# Number-Sort, C++
 
-C++ program: Sorts input numbers from lowest to highest and prints it out.
+This program takes in numbers from the user, puts them into a vector, prints out the vector,
+sorts the numbers from lowest to highest, and then prints out the sorted vector.
